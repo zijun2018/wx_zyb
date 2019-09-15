@@ -1,0 +1,5 @@
+<!--pages/news/news.wxml-->
+<!-- <text>pages/news/news.wxml</text> -->
+<import src="../../templates/newsListItem/newsListItem.wxml" />
+
+<template is="newsListItem" data="{{...itemData}}"/>

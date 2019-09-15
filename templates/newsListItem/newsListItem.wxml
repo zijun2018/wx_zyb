@@ -1,0 +1,16 @@
+<template name="newsListItem">
+  <block>
+    <view class="news-list-item">
+      <view class="part1">
+        <view class="part1-title">
+          <text>{{title}}</text>
+        </view>
+        <view class="part1-tag">原创</view>
+        <view class="part1-info">2019-09-15 19:03:42</view>
+      </view>
+      <view class="part2">
+        <image src="http://bdstatic.test.9quant.cn/banner/banner3.png"></image>
+      </view>
+    </view>
+  </block>
+</template>

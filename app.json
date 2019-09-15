@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/news/news"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#1C52BB",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "展业宝",
+    "navigationStyle": "default",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "backgroundColorTop": "#1C52BB",
+    "backgroundColorBottom": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1C52BB",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/tabbar_1.png",
+        "selectedIconPath": "images/tabbar/tabbar_1_selected.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "展业资讯库",
+        "iconPath": "images/tabbar/tabbar_2.png",
+        "selectedIconPath": "images/tabbar/tabbar_2_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "images/tabbar/tabbar_3.png",
+        "selectedIconPath": "images/tabbar/tabbar_3_selected.png"
+      }
+    ]
+  },
+  "newworkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 30000,
+    "downloadFile": 30000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}
